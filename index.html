@@ -19,6 +19,7 @@
             --accent-color: #f1c40f;
             --text-color: #333;
             --bg-color: #f8f9fa;
+             --dark-red: #8B0000;
             --card-bg: white;
             --header-bg: linear-gradient(135deg, #2c3e50, #3498db);
             --shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -32,7 +33,7 @@
             --text-color: #ecf0f1;
             --bg-color: #1a1a2e;
             --card-bg: #16213e;
-            --header-bg: linear-gradient(135deg, #0f3460, #1a1a2e);
+            --header-bg: linear-gradient(135deg, #0f6017, #1a1a2e);
             --shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
         }
 
@@ -206,7 +207,7 @@
 
         .skill-progress {
             height: 100%;
-            background: linear-gradient(90deg, var(--primary-color), #2980b9);
+            background: linear-gradient(90deg, var(--primary-color), #29b960);
             width: 0%;
             transition: width 2s ease-in-out;
             border-radius: 10px;
@@ -247,7 +248,7 @@
 
         .project-img {
             height: 200px;
-            background-color: var(--primary-color);
+            background-color: var(--dark-red);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -420,7 +421,7 @@
         }
 
         .submit-btn:hover {
-            background: #2980b9;
+            background: #b92929;
         }
 
         .message {
@@ -493,7 +494,7 @@
         }
 
         .grid-item {
-            background: var(--primary-color);
+            background: var( --accent-color);
             color: white;
             padding: 20px;
             border-radius: 5px;
@@ -604,12 +605,14 @@
 
   
     <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Kobid Nepal</h1>
-                <p>Full Stack Developer</p>
-                <a href="#contact" class="btn">Get In Touch</a>
-            </div>
+    <div class="hero-content">
+    <div class="profile-image">
+        <img src="face (1).jpg" alt="Kobid Nepal">
+    </div>
+    <h1>Kobid Nepal</h1>
+    <p>Full Stack Developer</p>
+    <a href="#contact" class="btn">Get In Touch</a>
+</div>
         </div>
     </section>
 
@@ -695,15 +698,15 @@
                 <div class="media-item">
                     <h3>Video Presentation</h3>
                     <video controls>
-                        <source src="" type="video/mp4">
-                        Your browser does not support the video tag.
+                        <source src="https://www.youtube.com/" type="video/mp4">
+                        
                     </video>
                 </div>
                 <div class="media-item">
                     <h3>Audio Introduction</h3>
                     <audio controls>
                         <source src="" type="audio/wav">
-                        Your browser does not support the audio element.
+                      
                     </audio>
                 </div>
                 <div class="media-item">
